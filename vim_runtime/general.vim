@@ -22,3 +22,7 @@ set mouse=a
 
 "make jj do esc"
 inoremap jj <Esc>
+
+
+" highlight inceamental search 
+set hlsearch incsearch

@@ -18,10 +18,12 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-airline/vim-airline'
 " color scemes package
 Plugin 'vim-airline/vim-airline-themes'
-" auto complete
-Plugin 'Valloric/youcompleteme'
 " Full path fuzzy file, buffer, mru, tag, ... finder for Vim
 Plugin 'kien/ctrlp.vim'
+" search tool - incremental search improved - successor of incsearch.vim
+Plugin 'haya14busa/is.vim'
+" auto complete
+" Plugin 'Valloric/youcompleteme' - install from source
 
 "" to look into
 "" unite or fuzzyfinder
