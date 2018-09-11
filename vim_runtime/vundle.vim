@@ -22,6 +22,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'kien/ctrlp.vim'
 " search tool - incremental search improved - successor of incsearch.vim
 Plugin 'haya14busa/is.vim'
+" easymotion - go to desired location fast
+Plugin 'easymotion/vim-easymotion'
 " auto complete
 " Plugin 'Valloric/youcompleteme' - install from source
 

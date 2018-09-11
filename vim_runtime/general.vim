@@ -1,5 +1,18 @@
 " misc configrations:    {{{{{{{{{{{
 "
+"
+"
+" With a map leader it's possible to do extra key combinations
+let mapleader = ","
+let g:mapleader = ","
+
+
+" bla
+
+" Fast saving
+nmap <leader>w :w!<cr>
+
+
 " set line number
 :set nu
 " gives a completion option when pressing tab at the bar
