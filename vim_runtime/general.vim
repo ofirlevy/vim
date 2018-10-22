@@ -11,6 +11,7 @@ let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+nmap <leader>q :q<cr>
 
 
 " set line number
@@ -28,14 +29,17 @@ set smarttab " Smarter tab levels
 "
 set mouse=a
 
-"shortcuts
-
+""""""""""""""""   "shortcuts
+" open NERDTree
+map <C-o> :NERDTreeToggle<CR>
+" moving between buffers
 :nnoremap <C-n> :bnext<CR>
 ::nnoremap <C-l> :bprevious<CR>
-
 "make jj do esc"
 inoremap jj <Esc>
 
-
 " highlight inceamental search 
 set hlsearch incsearch
+
+" move between buffer without the need to save
+set hidden

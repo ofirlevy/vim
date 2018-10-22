@@ -25,7 +25,9 @@ Plugin 'haya14busa/is.vim'
 " easymotion - go to desired location fast
 Plugin 'easymotion/vim-easymotion'
 " auto complete
-" Plugin 'Valloric/youcompleteme' - install from source
+Plugin 'Valloric/youcompleteme' 
+" show identation 
+Plugin 'nathanaelkane/vim-indent-guides'
 
 "" to look into
 "" unite or fuzzyfinder
@@ -36,7 +38,9 @@ filetype plugin indent on    " required
 
 "   }}}}
 
-
+""  other packages
+" fuzzy finder install via git
+set rtp+=~/.fzf
 
 " vundle: {{{{
 let g:airline#extensions#tabline#enabled = 1
